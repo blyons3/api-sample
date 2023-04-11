@@ -6,8 +6,6 @@ import com.charter.rewards.service.domain.PurchaseTransactions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import static java.util.stream.Collectors.*;
-
 @Service
 @RequiredArgsConstructor
 public class PointsCalculatorService {
