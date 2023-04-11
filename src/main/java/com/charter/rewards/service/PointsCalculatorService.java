@@ -47,6 +47,6 @@ public class PointsCalculatorService {
                             .filter(p -> p.getCustomerId() == customerId)
                             .filter(p -> p.getTransactionDate().getMonthValue() == month )
                             .filter(p -> p.getTransactionDate().getYear() == year)
-                            .collect(summingLong(PurchaseOrderHeader::getPoints));
+                            .mapToLong(PurchaseOrderHeader::getPoints).sum();
         }
     }
