@@ -1,0 +1,47 @@
+One of our account teams is interested in further discussing an opportunity with you. Their first step in the interview process is completing their “homework” as soon as possible.
+
+Charter’s Website: www.spectrum.com
+
+What is “homework”?
+
+The homework assignment is designed to assess a candidate’s technical understanding. Charter suggest taking around 30 minutes to code. Charter is looking for a pure logic solution with an endpoint that calculates rewards. Keep it simple – endpoint, calculation logic, unit test, with a readme that gives instructions for running, and a postman script for easy testing.
+
+As discussed, attached is the Charter homework assignment. This is the first step in the interview process so please read the instructions carefully and take your time to complete. Charter does want to see that you know how to test, for them this is as valuable as the code. Please also adhere to the below industry standards and best practices when completing this exercise. Thank you!
+
+Industry Standards and Best Practices Checklist
+
+1. Encapsulation
+
+a. Uses pure functions with no side-effects for calculations/business logic.
+
+b. Follows single-responsibility principle
+
+c. Simplistic logic is inclined instead of externalized (it can always be extracted later).
+
+2. Use of language features
+
+a. Uses array manipulation functions where appropriate (map/reduce/filter/etc).
+
+b. Uses classes if/where they provide value.
+
+3. Variable Scoping, Structure and Naming
+
+a. Variables are scoped to the smallest area possible.
+
+b. Appropriate data structures used (arrays, objects, maps, sets, etc).
+
+4. Architecture
+
+a. Does not contain needless complexity (minimal boilerplate, no extra files that serve minimal purpose).
+
+b. Encapsulation is at human-readable levels (each function should either do a single task or should provide human-readable orchestration of other functions).
+
+c. Solution is flexible without adding complexity (likely-to-change values are not hard-coded, arbitrarily provided groupings' values and number of groupings can be changed easily)
+
+5. Solution
+
+a. Solution functions without major defect.
+
+6. Code Style
+
+a. Code is consistently indented throughout.

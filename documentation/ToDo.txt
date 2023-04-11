@@ -1,0 +1,16 @@
+1. Write more tests!
+2. Ensure that tests cover all code.  Analyze the code in src/main/java using tools like jacoco or cobertura.
+3. Write tests that handle more boundary/extraneous conditions: passing null values, missing values, negative numbers, etc.
+4. Implement customer finder() and @Get methods into the @Service and @RestController classes.
+5. Add a pseudo-join between purchase order header transactions to join customer so that a master-detail result set
+   can be displayed showing customer info as a header with detail transactions and/or purchase order summary by month.
+6. Refactor places where for-each loops are used.  Change them to leverage more modern java features (lambda/stream, etc).
+7. Examine startup log messages and clear them up.  There are some warnings regarding files that are not found.
+8. Work analytics tools like SonarQube into the build to ensure that important coding standards are analyzed, and follwed
+   (This includes the process for pull request/code review/refactor/rework/approval).
+9. Develop an exception handling and logging strategy.  
+10. Implement @ControllerAdvice error/exception handling.  This will provide a consistent strategy for dealing with errors,
+    exceptions, and RuntimeExceptions.
+11. Develop and document a consistent approach for returning Spring HttpStatus enumeration objects in controller responses.
+    (HttpStatus.OK: everything worked, HttpStatus.NOT_FOUND: when no data was found to satisify the request, etc).
+12. 
