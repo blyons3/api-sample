@@ -11,7 +11,7 @@
 	<groupId>com.charter</groupId>
 	<artifactId>Rewards</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>sumtransactions</name>
+	<name>pointscalculator</name>
 	<description>SpringBoot Homework Assignment</description>
 	<properties>
 		<java.version>17</java.version>
@@ -31,6 +31,11 @@
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.yaml</groupId>
+			<artifactId>snakeyaml</artifactId>
+			<version>2.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
