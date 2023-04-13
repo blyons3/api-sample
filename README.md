@@ -14,7 +14,7 @@ a query for points by customer by month and year.
 ### Reference Documentation
 
 Assignment email and API Homework Document included for reference.
-I did leave a ToDo.txt in the documentation area.  Typically, these would be opened as separate issues in GitHub or Jira.
+I did leave a ToDo.txt in the documentation area.  Typically, each ToDo would be opened as separate issues in GitHub or Jira.
 
 ### Guides
 The following guides illustrate how to use some features concretely:
