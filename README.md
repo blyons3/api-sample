@@ -1,7 +1,6 @@
 # Read Me First
 This Project was built using Java 17 and Maven.
 I utilized the Spring Initializer as a starting point.
-It was built by Bill Lyons for a Homework Assignment.
 
 # Getting Started
 Postman Tests shared via 
